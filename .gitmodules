@@ -1,29 +1,29 @@
 [submodule "apps/qtgame-tycoon"]
 	path = apps/qtgame-tycoon
-	url = https://github.com/quanttide/qtgame-tycoon
+	url = https://github.com/quanttide-founder/qtgame-tycoon
 [submodule "apps/qtgame-war"]
 	path = apps/qtgame-war
-	url = https://github.com/quanttide/qtgame-war.git
+	url = https://github.com/quanttide-founder/qtgame-war.git
 [submodule "examples/default"]
 	path = examples/default
-	url = https://github.com/quanttide/quanttide-laboratory-of-founder.git
+	url = https://github.com/quanttide-founder/quanttide-laboratory-of-founder.git
 [submodule "assets/archive"]
 	path = assets/archive
-	url = https://github.com/quanttide/quanttide-archive-of-founder
+	url = https://github.com/quanttide-founder/quanttide-archive-of-founder
 [submodule "apps/qtfounder"]
 	path = apps/qtfounder
-	url = https://github.com/quanttide/qtfounder
+	url = https://github.com/quanttide-founder/qtfounder
 	branch = main
 [submodule "apps/qtgame-weiqi"]
 	path = apps/qtgame-weiqi
-	url = https://github.com/quanttide/qtgame-weiqi.git
+	url = https://github.com/quanttide-founder/qtgame-weiqi.git
 	branch = main
 [submodule "assets/fiction"]
 	path = assets/fiction
-	url = https://github.com/quanttide/quanttide-fiction-of-founder.git
+	url = https://github.com/quanttide-founder/quanttide-fiction-of-founder.git
 [submodule "assets/memory"]
 	path = assets/memory
-	url = https://github.com/quanttide/quanttide-memory-of-founder.git
+	url = https://github.com/quanttide-founder/quanttide-memory-of-founder.git
 [submodule "packages/quanttide-founder-toolkit"]
 	path = packages/quanttide-founder-toolkit
-	url = https://github.com/quanttide/quanttide-founder-toolkit.git
+	url = https://github.com/quanttide-founder/quanttide-founder-toolkit.git
