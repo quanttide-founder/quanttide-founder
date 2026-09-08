@@ -89,7 +89,7 @@ git reset --hard HEAD~1
 ```
 ✓ Release vX.Y.Z 创建成功
   标签: vX.Y.Z
-  URL: https://github.com/quanttide/<repo>/releases/tag/vX.Y.Z
+  URL: https://github.com/quanttide-founder/<repo>/releases/tag/vX.Y.Z
   提交: <SHA>
 ```
 
