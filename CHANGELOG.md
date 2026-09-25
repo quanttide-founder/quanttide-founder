@@ -14,6 +14,31 @@
 
 **工作流程**：创建 Release 之前必须先更新此文件。
 
+## [1.1.1] - 2026-09-26
+
+Skill 体系整顿与创作取材能力：新增 memory-to-fiction 取材 skill，devops 系列 skill 改名归位，docs-deploy 迁出至 gallery 仓库。
+
+### Added
+
+- **memory-to-fiction Skill**：从 memory 五轴档案按需取材供给创作（选轴 → 主体转换 → 落盘），单向只读，含试写验证协议
+- **apps/qtfounder**：provider 部署至阿里云 FC custom runtime，新增 secret key 访问控制
+
+### Changed
+
+- **Skill 改名**：`devops-commit` → `git-commit`，`devops-submodule` → `git-submodule`，`devops-review` → `devops-audit`；AGENTS.md、CONTRIBUTING.md、.agents/README.md 索引同步
+- **AGENTS.md**：移除「自我更新」节（归档站不作业务用途）；快速索引改用完整 skill 名并补流程审查条目
+- **仓库链接**：迁移至 quanttide-founder 组织后链接同步更新
+
+### Removed
+
+- **docs-deploy Skill**：内容迁移至 quanttide-gallery-of-devops（`docs/gallery/myst-markdown/deploy.md`）
+- 移除 `.quanttide` 配置
+
+### 子模块
+
+- **assets/memory → v1.1.0**：五轴档案（emotions/values/triggers/methods/expressions）与双蒸馏 skill（journal-to-profile / journal-to-roadmap）、主题路线图首批、AGENTS/README 重组
+- apps/qtfounder、assets/fiction、assets/archive 等指针更新，详见各子模块 CHANGELOG
+
 ## [1.1.0] - 2026-08-15
 
 ### Added
