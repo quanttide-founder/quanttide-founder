@@ -15,7 +15,6 @@
 | [devops-release](.agents/skills/devops-release/SKILL.md) | 发布 Release | `.agents/skills/devops-release/SKILL.md` |
 | [git-submodule](.agents/skills/git-submodule/SKILL.md) | 子模块管理 | `.agents/skills/git-submodule/SKILL.md` |
 | [devops-audit](.agents/skills/devops-audit/SKILL.md) | 流程审查 | `.agents/skills/devops-audit/SKILL.md` |
-| [memory-to-fiction](.agents/skills/memory-to-fiction/SKILL.md) | 从 memory 档案取材供给创作 | `.agents/skills/memory-to-fiction/SKILL.md` |
 
 ---
 
@@ -27,7 +26,6 @@
 | 发布 Release | Skill: `devops-release` |
 | 修改子模块 | Skill: `git-submodule` |
 | 流程审查 | Skill: `devops-audit` |
-| 小说取材 | Skill: `memory-to-fiction` |
 | 记录日报 | `assets/memory/journal/YYYY-MM-DD.md` |
 
 ---
