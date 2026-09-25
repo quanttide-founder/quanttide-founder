@@ -1,9 +1,9 @@
 ---
-name: devops-submodule
+name: git-submodule
 description: 管理 Git 子模块的完整生命周期：添加、移除、更新、修复冲突、查看状态。处理 detached HEAD、合并冲突等边缘情况。
 ---
 
-# devops-submodule
+# git-submodule
 
 管理 Git 子模块（添加、移除、更新、修复）。
 

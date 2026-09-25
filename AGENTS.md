@@ -11,10 +11,10 @@
 
 | Skill | 用途 | 路径 |
 |-------|------|------|
-| [devops-commit](.agents/skills/devops-commit/SKILL.md) | 规范提交 | `.agents/skills/devops-commit/SKILL.md` |
+| [git-commit](.agents/skills/git-commit/SKILL.md) | 规范提交 | `.agents/skills/git-commit/SKILL.md` |
 | [devops-release](.agents/skills/devops-release/SKILL.md) | 发布 Release | `.agents/skills/devops-release/SKILL.md` |
-| [devops-submodule](.agents/skills/devops-submodule/SKILL.md) | 子模块管理 | `.agents/skills/devops-submodule/SKILL.md` |
-| [devops-review](.agents/skills/devops-review/SKILL.md) | 流程审查 | `.agents/skills/devops-review/SKILL.md` |
+| [git-submodule](.agents/skills/git-submodule/SKILL.md) | 子模块管理 | `.agents/skills/git-submodule/SKILL.md` |
+| [devops-audit](.agents/skills/devops-audit/SKILL.md) | 流程审查 | `.agents/skills/devops-audit/SKILL.md` |
 | [docs-deploy](.agents/skills/docs-deploy/SKILL.md) | 部署 MyST 文档站点 | `.agents/skills/docs-deploy/SKILL.md` |
 | [memory-to-fiction](.agents/skills/memory-to-fiction/SKILL.md) | 从 memory 档案取材供给创作 | `.agents/skills/memory-to-fiction/SKILL.md` |
 
@@ -24,9 +24,10 @@
 
 | 任务 | 操作位置 |
 |------|---------|
-| 提交变更 | Skill: `commit` |
-| 发布 Release | Skill: `release` |
-| 修改子模块 | Skill: `submodule` |
+| 提交变更 | Skill: `git-commit` |
+| 发布 Release | Skill: `devops-release` |
+| 修改子模块 | Skill: `git-submodule` |
+| 流程审查 | Skill: `devops-audit` |
 | 小说取材 | Skill: `memory-to-fiction` |
 | 记录日报 | `assets/memory/journal/YYYY-MM-DD.md` |
 
@@ -71,13 +72,6 @@
 - 使用 fenced code blocks
 - 包含语言标识符
 - 保持代码简洁
-
-## 自我更新
-
-### 总体原则
-- 重要变更记录到 `docs/archive/report/default/diary/YYYY-MM-DD.md`
-- 能力变化时更新本文档
-- 保持所有文档与实际情况一致
 
 ## Git 提交规范
 

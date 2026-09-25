@@ -8,9 +8,9 @@ Agent 会根据用户输入自动匹配 Skill，也可直接调用：
 
 | Skill | 触发词 | 用途 |
 |-------|--------|------|
-| [devops-commit](skills/devops-commit/SKILL.md) | "提交"、"commit" | 规范提交 |
+| [git-commit](skills/git-commit/SKILL.md) | "提交"、"commit" | 规范提交 |
 | [devops-release](skills/devops-release/SKILL.md) | "发布"、"release" | 发布 Release |
-| [devops-submodule](skills/devops-submodule/SKILL.md) | "子模块"、"submodule" | 子模块管理 |
+| [git-submodule](skills/git-submodule/SKILL.md) | "子模块"、"submodule" | 子模块管理 |
 | [asset-vision](skills/asset-vision/SKILL.md) | "愿景"、"vision" | 从 roadmap/context 提取愿景文档 |
 
 > vision 子仓库另有独立 Skill：`vision-write`（撰写愿景文档）
@@ -20,7 +20,7 @@ Agent 会根据用户输入自动匹配 Skill，也可直接调用：
 ```
 .agents/
 └── skills/
-    ├── devops-commit/
+    ├── git-commit/
     │   ├── SKILL.md
     │   ├── scripts/
     │   ├── references/
@@ -30,7 +30,7 @@ Agent 会根据用户输入自动匹配 Skill，也可直接调用：
     │   ├── scripts/
     │   ├── references/
     │   └── assets/
-    └── devops-submodule/
+    └── git-submodule/
         ├── SKILL.md
         ├── scripts/
         ├── references/

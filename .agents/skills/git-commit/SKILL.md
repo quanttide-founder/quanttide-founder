@@ -1,9 +1,9 @@
 ---
-name: devops-commit
+name: git-commit
 description: 规范提交 Git 仓库变更，遵循 Conventional Commits 格式（feat/fix/docs/test/refactor/chore）。自动识别变更类型、生成提交信息、确认并推送。
 ---
 
-# devops-commit
+# git-commit
 
 规范提交 Git 仓库变更。
 

@@ -6,10 +6,10 @@
 
 | Skill | 用途 | 触发词 |
 |-------|------|--------|
-| [devops-commit](.agents/skills/devops-commit/SKILL.md) | 规范提交 | "提交"、"commit" |
+| [git-commit](.agents/skills/git-commit/SKILL.md) | 规范提交 | "提交"、"commit" |
 | [devops-release](.agents/skills/devops-release/SKILL.md) | 发布 Release | "发布"、"release" |
-| [devops-submodule](.agents/skills/devops-submodule/SKILL.md) | 子模块管理 | "子模块"、"submodule" |
-| [devops-review](.agents/skills/devops-review/SKILL.md) | 流程审查 | "审查"、"review" |
+| [git-submodule](.agents/skills/git-submodule/SKILL.md) | 子模块管理 | "子模块"、"submodule" |
+| [devops-audit](.agents/skills/devops-audit/SKILL.md) | 流程审查 | "审查"、"review" |
 | [docs-deploy](.agents/skills/docs-deploy/SKILL.md) | 部署 MyST 文档站点 | "部署"、"deploy" |
 
 每个 Skill 的 `SKILL.md` 包含：触发词、规则、工作流步骤。

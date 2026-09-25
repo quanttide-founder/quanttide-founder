@@ -1,9 +1,9 @@
 ---
-name: devops-review
+name: devops-audit
 description: 审查仓库状态、CHANGELOG、版本一致性等，支持发布前检查、代码审查、文档审查等多场景。
 ---
 
-# devops-review
+# devops-audit
 
 统一审查仓库状态，为多种工作流程提供前置检查。
 
@@ -220,8 +220,8 @@ validate_release "v0.4.0"
 # 在 .agents/skills/devops-release/SKILL.md 中
 # 步骤 1. 预检查
 
-# 调用 devops-review
-.agents/skills/devops-review/SKILL.md validate_release "$VERSION"
+# 调用 devops-audit
+.agents/skills/devops-audit/SKILL.md validate_release "$VERSION"
 if [ $? -ne 0 ]; then
   echo "发布前审查失败，请修复后再试"
   exit 1
