@@ -77,4 +77,4 @@ description: 接到创作任务时，从 assets/memory/profile 的五轴档案�
 3. 限时 30 分钟写 500 字初稿。
 4. 对照：不走 skill、直接从日志原文取材，同样条件再做一次。
 
-结果写入主仓库 `docs/archive/report/default/diary/YYYY-MM-DD.md`。通过后在 fiction 的 `AGENTS.md` 挂载触发说明；不通过则记录卡点作为下次修订输入。
+结果写入 `assets/fiction/实验室/`（命名 `YYYY-MM-DD-<任务>.md`）。通过后在 fiction 的 `AGENTS.md` 挂载触发说明；不通过则记录卡点作为下次修订输入。实验记录不写入归档站——`assets/archive` 只做历史归档，不承担业务用途。
