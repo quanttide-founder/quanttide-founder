@@ -16,6 +16,7 @@
 | [devops-submodule](.agents/skills/devops-submodule/SKILL.md) | 子模块管理 | `.agents/skills/devops-submodule/SKILL.md` |
 | [devops-review](.agents/skills/devops-review/SKILL.md) | 流程审查 | `.agents/skills/devops-review/SKILL.md` |
 | [docs-deploy](.agents/skills/docs-deploy/SKILL.md) | 部署 MyST 文档站点 | `.agents/skills/docs-deploy/SKILL.md` |
+| [memory-to-fiction](.agents/skills/memory-to-fiction/SKILL.md) | 从 memory 档案取材供给创作 | `.agents/skills/memory-to-fiction/SKILL.md` |
 
 ---
 
@@ -26,6 +27,7 @@
 | 提交变更 | Skill: `commit` |
 | 发布 Release | Skill: `release` |
 | 修改子模块 | Skill: `submodule` |
+| 小说取材 | Skill: `memory-to-fiction` |
 | 记录日报 | `assets/memory/journal/YYYY-MM-DD.md` |
 
 ---
