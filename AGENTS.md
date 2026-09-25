@@ -15,7 +15,6 @@
 | [devops-release](.agents/skills/devops-release/SKILL.md) | 发布 Release | `.agents/skills/devops-release/SKILL.md` |
 | [git-submodule](.agents/skills/git-submodule/SKILL.md) | 子模块管理 | `.agents/skills/git-submodule/SKILL.md` |
 | [devops-audit](.agents/skills/devops-audit/SKILL.md) | 流程审查 | `.agents/skills/devops-audit/SKILL.md` |
-| [docs-deploy](.agents/skills/docs-deploy/SKILL.md) | 部署 MyST 文档站点 | `.agents/skills/docs-deploy/SKILL.md` |
 | [memory-to-fiction](.agents/skills/memory-to-fiction/SKILL.md) | 从 memory 档案取材供给创作 | `.agents/skills/memory-to-fiction/SKILL.md` |
 
 ---
