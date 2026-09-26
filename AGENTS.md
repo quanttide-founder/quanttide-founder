@@ -27,7 +27,7 @@
 | 发布 Release | Skill: `devops-release` |
 | 修改子模块 | Skill: `git-submodule` |
 | 流程审查 | Skill: `devops-audit` |
-| 记录日报 | `assets/memory/journal/YYYY-MM-DD.md` |
+| 记录日报 | `assets/memory/default/YYYY-MM-DD.md`（当天放集根，更早日志在 `assets/memory/default/journal/`） |
 | 归档旧日志 | Skill: `journal-to-archive` |
 
 ---
@@ -92,8 +92,9 @@
 - **子模块操作前先 checkout main**：`git checkout main && git pull`
 - **版本号**：使用 `vX.Y.Z` 格式（如 v1.0.0），Release 标题由 qtcloud-devops 自动生成
 - **Release notes**：只包含对应版本内容
-- **版本契约（v1.0.0 起）**：目录迁移、文件重命名、归档规范变化等结构类变更属破坏性变更，必须升 major 版本（1.1.0 → 2.0.0），CHANGELOG 写明迁移映射；内容新增升 minor，修复升 patch
-- **大版本 CHANGELOG 规范**：条目需包含定位说明、破坏性变更与迁移指南、Removed 清单；内容型仓库附内容总览
+- **版本契约（v1.0.0 起；v1.2.0 修订）**：破坏性变更指**语义或模型的变更**——四层结构、边界规则、蒸馏逻辑、文件含义改变，读者按原理解会得出错误结论；必须升 major 版本（1.1.0 → 2.0.0），CHANGELOG 写明影响面。内容新增升 minor，修复升 patch
+- **纯路径迁移升 minor**：目录迁移、文件重命名、归档规范变化，若内容逐字节不变、语义与模型不变，升 minor；但 CHANGELOG 必须附新旧路径映射表，且**全部已知读者（文档、skill、代码）在同一次发布内同步改完**——漏改一处即按破坏性变更处理
+- **大版本 CHANGELOG 规范**：条目需包含定位说明、破坏性变更与迁移指南、Removed 清单；内容型仓库附内容总览。minor 条目不套用此规格
 - **发布顺序**：先发布子模块，再发布主仓库；主仓库发布前确认所有子模块引用最新
 
 ---
