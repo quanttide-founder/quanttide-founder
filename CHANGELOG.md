@@ -14,6 +14,23 @@
 
 **工作流程**：创建 Release 之前必须先更新此文件。
 
+## [1.1.2] - 2026-09-26
+
+日志归档能力与子模块同步：新增 journal-to-archive skill（跨 submodule 归档一周以上旧日志），memory 子模块升至 v1.1.1。
+
+### Added
+
+- **journal-to-archive Skill**：`assets/memory/journal/` → `assets/archive/journal/` 一周以上日志归档（7 天截止、双侧工作区与冲突检查、双侧提交）；AGENTS.md、CONTRIBUTING.md、.agents/README.md 索引同步
+
+### Removed
+
+- **memory-to-fiction Skill**：取材 skill 移除
+
+### 子模块
+
+- **assets/memory → v1.1.1**：journal-to-insight 认知洞察层（insight/ 四主题，已确认/假说分级）与三蒸馏触发规则
+- **assets/fiction**：指针更新至远端 main 最新（+27 提交，目录重组与新稿）
+
 ## [1.1.1] - 2026-09-26
 
 Skill 体系整顿与创作取材能力：新增 memory-to-fiction 取材 skill，devops 系列 skill 改名归位，docs-deploy 迁出至 gallery 仓库。
