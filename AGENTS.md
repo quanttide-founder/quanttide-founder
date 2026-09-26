@@ -15,6 +15,7 @@
 | [devops-release](.agents/skills/devops-release/SKILL.md) | 发布 Release | `.agents/skills/devops-release/SKILL.md` |
 | [git-submodule](.agents/skills/git-submodule/SKILL.md) | 子模块管理 | `.agents/skills/git-submodule/SKILL.md` |
 | [devops-audit](.agents/skills/devops-audit/SKILL.md) | 流程审查 | `.agents/skills/devops-audit/SKILL.md` |
+| [journal-to-archive](.agents/skills/journal-to-archive/SKILL.md) | 归档一周以上日志 | `.agents/skills/journal-to-archive/SKILL.md` |
 
 ---
 
@@ -27,6 +28,7 @@
 | 修改子模块 | Skill: `git-submodule` |
 | 流程审查 | Skill: `devops-audit` |
 | 记录日报 | `assets/memory/journal/YYYY-MM-DD.md` |
+| 归档旧日志 | Skill: `journal-to-archive` |
 
 ---
 
