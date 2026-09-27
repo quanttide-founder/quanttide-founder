@@ -14,7 +14,7 @@ description: 把 assets/memory/<集>/ 中一周以上的日志归档到 assets/a
 | `assets/memory/<集>/journal/*.md` | 历史日志 |
 | `assets/memory/<集>/*.md` | 集根的当天日志（手机端直写，可能长期未移入 `journal/`） |
 
-归档目标随归档站结构取值：记忆集在归档站有同名一级主题目录（`fiction/`、`game/`）时入 `<主题>/journal/`，否则入 `journal/<集>/`（如 `default`）。原存量 `journal/write/` 已整体迁 quanttide-write 归档（`quanttide-archive-of-narrative-engineering`），本归档站不再保留 write 分类。
+归档目标随归档站结构取值：记忆集在归档站有同名一级主题目录（`fiction/`、`game/`）时入 `<主题>/journal/`，否则入 `journal/<集>/`（如 `default`）。原存量 `journal/write/` 已迁 quanttide-write 归档（`quanttide-archive-of-narrative-engineering`），其中 fiction 主题日志回迁本归档站 `fiction/journal/`；本归档站不再保留 write 分类。
 
 ## Steps
 
