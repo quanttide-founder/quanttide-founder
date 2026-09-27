@@ -16,6 +16,7 @@
 | [git-submodule](.agents/skills/git-submodule/SKILL.md) | 子模块管理 | `.agents/skills/git-submodule/SKILL.md` |
 | [devops-audit](.agents/skills/devops-audit/SKILL.md) | 流程审查 | `.agents/skills/devops-audit/SKILL.md` |
 | [journal-to-archive](.agents/skills/journal-to-archive/SKILL.md) | 归档一周以上日志 | `.agents/skills/journal-to-archive/SKILL.md` |
+| [archive-to-domain](.agents/skills/archive-to-domain/SKILL.md) | 归档站资源移交领域 archive | `.agents/skills/archive-to-domain/SKILL.md` |
 
 ---
 
@@ -29,6 +30,7 @@
 | 流程审查 | Skill: `devops-audit` |
 | 记录日报 | `assets/memory/default/YYYY-MM-DD.md`（当天放集根，更早日志在 `assets/memory/default/journal/`） |
 | 归档旧日志 | Skill: `journal-to-archive` |
+| 移交领域归档 | Skill: `archive-to-domain` |
 
 ---
 
