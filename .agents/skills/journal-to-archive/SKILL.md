@@ -1,6 +1,6 @@
 ---
 name: journal-to-archive
-description: 把 assets/memory/<集>/ 中一周以上的日志归档到 assets/archive/journal/<集>/。当用户要求归档日志、备份旧日志、清理日志或说"归档一周以上的日志"时使用。
+description: 把 assets/memory/<集>/ 中一周以上的日志归档到 assets/archive（有同名一级主题目录入 <主题>/journal/，否则入 journal/<集>/）。当用户要求归档日志、备份旧日志、清理日志或说"归档一周以上的日志"时使用。
 ---
 
 # Journal 归档
@@ -14,7 +14,7 @@ description: 把 assets/memory/<集>/ 中一周以上的日志归档到 assets/a
 | `assets/memory/<集>/journal/*.md` | 历史日志 |
 | `assets/memory/<集>/*.md` | 集根的当天日志（手机端直写，可能长期未移入 `journal/`） |
 
-归档站分类目录与记忆集同名（`default`、`fiction`、`game`），两边可直接对应；归档站存量 `write/` 目录为 `fiction/` 前身。
+归档目标随归档站结构取值：记忆站在归档站有同名一级主题目录（`fiction/`、`game/`）时入 `<主题>/journal/`，否则入 `journal/<集>/`（如 `default`）。存量 `journal/write/` 为历史写作日志（含职能子目录），保持原状，不接收 fiction 集新日志。
 
 ## Steps
 
@@ -30,13 +30,17 @@ description: 把 assets/memory/<集>/ 中一周以上的日志归档到 assets/a
    done
    ```
 
-4. 冲突检查：每个源路径形如 `assets/memory/<集>/(journal/)?<文件>`，目标为 `assets/archive/journal/<集>/<文件>`（`<集>` 取源路径第二段），确认目标不存在。有冲突先停下问用户。
+4. 冲突检查：每个源路径形如 `assets/memory/<集>/(journal/)?<文件>`，目标为 `assets/archive/<集>/journal/<文件>`（归档站存在同名一级主题目录时）或 `assets/archive/journal/<集>/<文件>`（`<集>` 取源路径第二段），确认目标不存在。有冲突先停下问用户。
 5. 移动，目标分类目录缺则 `mkdir -p` 创建：
 
    ```sh
    set=$(echo "$src" | cut -d/ -f3)          # default | fiction | game | ...
    file=$(basename "$src")
-   dest="assets/archive/journal/$set/$file"
+   if [ -d "assets/archive/$set" ]; then
+     dest="assets/archive/$set/journal/$file"    # 一级主题目录（fiction、game）
+   else
+     dest="assets/archive/journal/$set/$file"    # 职能分类（default 等）
+   fi
    mkdir -p "$(dirname "$dest")" && mv "$src" "$dest"
    ```
 
