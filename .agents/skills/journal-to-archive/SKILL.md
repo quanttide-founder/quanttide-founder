@@ -14,7 +14,7 @@ description: 把 assets/memory/<集>/ 中一周以上的日志归档到 assets/a
 | `assets/memory/<集>/journal/*.md` | 历史日志 |
 | `assets/memory/<集>/*.md` | 集根的当天日志（手机端直写，可能长期未移入 `journal/`） |
 
-归档站分类目录与记忆集同名（`default`、`write`），两边可直接对应。
+归档站分类目录与记忆集同名（`default`、`fiction`、`game`），两边可直接对应；归档站存量 `write/` 目录为 `fiction/` 前身。
 
 ## Steps
 
@@ -34,7 +34,7 @@ description: 把 assets/memory/<集>/ 中一周以上的日志归档到 assets/a
 5. 移动，目标分类目录缺则 `mkdir -p` 创建：
 
    ```sh
-   set=$(echo "$src" | cut -d/ -f3)          # default | write | ...
+   set=$(echo "$src" | cut -d/ -f3)          # default | fiction | game | ...
    file=$(basename "$src")
    dest="assets/archive/journal/$set/$file"
    mkdir -p "$(dirname "$dest")" && mv "$src" "$dest"
