@@ -14,6 +14,28 @@
 
 **工作流程**：创建 Release 之前必须先更新此文件。
 
+## [1.1.3] - 2026-09-29
+
+协作规范整理与实验室子模块更名：AGENTS 精简为导航、规范并入 CONTRIBUTING，examples 子模块改名 quanttide-founder-lab。
+
+### Added
+
+- **archive-to-domain Skill**：`assets/archive` 按域资源移交领域归档仓库，含已知映射、迁移前检查与六步提交链
+- **AGENTS.md 工作原则**：顶部「不要过度思考：直接动手，做必要的最小改动」与「变更一律提交并推送，不必逐次确认」
+
+### Changed
+
+- **AGENTS.md 精简为导航**：协作原则、输出规范、第二大脑边界、版本契约并入 CONTRIBUTING.md
+- **CONTRIBUTING.md**：新增「提交纪律」「版本契约」「创始人第二大脑：功能与边界」，Skill 概览补 archive-to-domain
+- **journal-to-archive Skill**：同时覆盖集根当天日志与 `journal/` 历史日志，归档目标按归档站主题目录取值
+- **examples 子模块更名**：`examples/default` → `examples/quanttide-founder-lab`（仓库 `quanttide-laboratory-of-founder` → `quanttide-founder-lab`，旧链接自动重定向）
+
+### 子模块
+
+- **examples/quanttide-founder-lab（原 laboratory-of-founder）**：`knowl-searcher` 与 `task-board` 合并为 `novel-planner`，`shop-launch` 移交 roadriver-tech，新增 examples 案例库 README、AGENTS「实验异同」与默认语言 Python
+- **packages/quanttide-founder-toolkit → v0.1.0-alpha.1**
+- **assets/memory**、**assets/archive**、**assets/fiction**、**apps/qtfounder**、**apps/qtgame-tycoon** 指针更新
+
 ## [1.1.2] - 2026-09-26
 
 日志归档能力与子模块同步：新增 journal-to-archive skill（跨 submodule 归档一周以上旧日志），memory 子模块升至 v1.1.1。
