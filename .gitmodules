@@ -4,9 +4,6 @@
 [submodule "apps/qtgame-war"]
 	path = apps/qtgame-war
 	url = https://github.com/quanttide-founder/qtgame-war.git
-[submodule "examples/default"]
-	path = examples/default
-	url = https://github.com/quanttide-founder/quanttide-laboratory-of-founder.git
 [submodule "assets/archive"]
 	path = assets/archive
 	url = https://github.com/quanttide-founder/quanttide-archive-of-founder
@@ -27,3 +24,6 @@
 [submodule "packages/quanttide-founder-toolkit"]
 	path = packages/quanttide-founder-toolkit
 	url = https://github.com/quanttide-founder/quanttide-founder-toolkit.git
+[submodule "examples/quanttide-founder-lab"]
+	path = examples/quanttide-founder-lab
+	url = https://github.com/quanttide-founder/quanttide-founder-lab.git

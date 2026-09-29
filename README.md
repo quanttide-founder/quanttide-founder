@@ -29,7 +29,7 @@ quanttide-founder/
 | `assets/archive` | quanttide-archive-of-founder | v1.0.0 |
 | `assets/fiction` | quanttide-fiction-of-founder | v1.0.0 |
 | `assets/memory` | quanttide-memory-of-founder | v1.0.0 |
-| `examples/default` | quanttide-laboratory-of-founder | main |
+| `examples/quanttide-founder-lab` | quanttide-founder-lab | main |
 | `packages/quanttide-founder-toolkit` | quanttide-founder-toolkit | main |
 
 版本契约：结构类变更（目录迁移、重命名、归档规范变化）为破坏性变更，需升 major 版本并在 CHANGELOG 写明迁移映射。
