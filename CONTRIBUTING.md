@@ -85,6 +85,14 @@ git commit -m "<type>: <description>"
 - 验证通过再提交；提交即推送，main 更新会触发站点部署
 - 一次提交只做一件事，提交后回报 GitHub 提交链接
 
+## 记忆集划分与提炼
+
+`assets/memory` 的记忆按主题域分集（详见 `assets/memory/AGENTS.md`）。集与集之间有**提炼关系**，不是并列：
+
+- **default（创业与个人主线）只保留 `journal/` 与 `profile/`**——时间线 + 个人特征两层，不放 roadmap / insight / intention。
+- **work（工作主线）从 default 提炼**：工作相关的主体（业务、组织、平台、AI 协作）归 `work/` 的各层。
+- **提炼不丢内容**：从 default 收进 work 的条目按主题落位；重复的合并，独有的保留。
+
 ## 版本与发布规范
 
 ### 版本契约（v1.0.0 起；v1.2.0 修订）
