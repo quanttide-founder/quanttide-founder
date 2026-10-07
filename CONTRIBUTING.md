@@ -91,27 +91,13 @@ git commit -m "<type>: <description>"
 
 - **default（创业与个人主线）只保留 `journal/` 与 `profile/`**——时间线 + 个人特征两层，不放 roadmap / insight / intention。
 - **work（工作主线）从 default 提炼**：工作相关的主体（业务、组织、平台、AI 协作）归 `work/` 的各层。
+- **fiction（写作主线）同理**：保留 `journal/` 与 `profile/`（创作动机 / 创作方法 / 创作困境），另有 `history/`、`library/` 放作品与素材。
 - **提炼不丢内容**：从 default 收进 work 的条目按主题落位；重复的合并，独有的保留。
 
-## 版本与发布规范
+## 发布规范
 
-### 版本契约（v1.0.0 起；v1.2.0 修订）
-
-- 破坏性变更指**语义或模型的变更**——四层结构、边界规则、蒸馏逻辑、文件含义改变，读者按原理解会得出错误结论；必须升 major 版本（如 1.1.0 → 2.0.0），CHANGELOG 写明影响面
-- 内容新增升 minor，修复升 patch
-- **纯路径迁移升 minor**：目录迁移、文件重命名、归档规范变化，若内容逐字节不变、语义与模型不变，升 minor；CHANGELOG 必须附新旧路径映射表，且**全部已知读者（文档、skill、代码）在同一次发布内同步改完**——漏改一处即按破坏性变更处理
-- 版本号使用 `vX.Y.Z` 格式；Release notes 只包含对应版本内容，Release 标题由 qtcloud-devops 自动生成
 - 子模块先发布，主仓库后发布；主仓库发布前确认所有子模块引用最新
 - 子模块操作前先 checkout main：`git checkout main && git pull`
-
-### 大版本 CHANGELOG 规范
-
-条目需包含：
-
-1. **定位说明**：该版本的意义（如"首个正式发布"）
-2. **破坏性变更**：单独声明，附旧路径 → 新路径迁移映射
-3. **Removed 清单**：被删除的文档/目录
-4. **内容总览**：内容型仓库（如 assets/*）附仓库全貌
 
 详细流程见 [devops-release](.agents/skills/devops-release/SKILL.md)。
 
