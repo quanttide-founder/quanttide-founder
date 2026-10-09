@@ -9,7 +9,7 @@
 	url = https://github.com/quanttide-founder/quanttide-archive-of-founder
 [submodule "apps/qtfounder"]
 	path = apps/qtfounder
-	url = https://github.com/quanttide-founder/qtfounder
+	url = https://github.com/quanttide/qtfounder
 	branch = main
 [submodule "apps/qtgame-weiqi"]
 	path = apps/qtgame-weiqi
@@ -23,7 +23,7 @@
 	url = https://github.com/quanttide-founder/quanttide-memory-of-founder.git
 [submodule "packages/quanttide-founder-toolkit"]
 	path = packages/quanttide-founder-toolkit
-	url = https://github.com/quanttide-founder/quanttide-founder-toolkit.git
+	url = https://github.com/quanttide/quanttide-founder-toolkit.git
 [submodule "examples/quanttide-founder-lab"]
 	path = examples/quanttide-founder-lab
-	url = https://github.com/quanttide-founder/quanttide-founder-lab.git
+	url = https://github.com/quanttide/quanttide-founder-lab.git
