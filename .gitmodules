@@ -27,7 +27,7 @@
 [submodule "examples/quanttide-founder-lab"]
 	path = examples/quanttide-founder-lab
 	url = https://github.com/quanttide/quanttide-founder-lab.git
-[submodule "examples/quanttide-repo-classifier"]
-	path = examples/quanttide-repo-classifier
-	url = https://github.com/quanttide-founder/quanttide-repo-classifier.git
+[submodule "examples/quanttide-domain-classifier"]
+	path = examples/quanttide-domain-classifier
+	url = https://github.com/quanttide-founder/quanttide-domain-classifier.git
 	branch = main
