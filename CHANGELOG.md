@@ -14,6 +14,12 @@
 
 **工作流程**：创建 Release 之前必须先更新此文件。
 
+## [Unreleased]
+
+### Removed
+
+- **examples/quanttide-domain-classifier**：内容迁入 `quanttide-algorithm-lab` 的 `examples/corpus-linking`，子模块登记与远端仓库一并移除
+
 ## [1.1.3] - 2026-09-29
 
 协作规范整理与实验室子模块更名：AGENTS 精简为导航、规范并入 CONTRIBUTING，examples 子模块改名 quanttide-founder-lab。
