@@ -22,7 +22,7 @@
 - **组织迁移**：`quanttide-founder` 组织下的全部仓库（`quanttide-founder`、`quanttide-context-of-founder`、`quanttide-fiction-of-founder`、`quanttide-archive-of-founder`）迁至 `quanttide` 组织（旧链接自动重定向）；`.gitmodules` 与各子模块内的组织 URL、路径引用同步
 - **目录结构重排**：`assets/context`、`assets/archive` 迁至 `data/`，并新建 `data/journal`（仓库 `quanttide-journal-of-founder`，创始人日志入口）；`apps/qtgame-tycoon`、`apps/qtgame-war`、`apps/qtgame-weiqi` 迁至 `assets/`；AGENTS.md、README.md、CONTRIBUTING.md 与 journal-to-archive / archive-to-domain Skill 路径同步
 - **新增章程仓库**：`docs/bylaw`（仓库 `quanttide-bylaw-of-founder`），创始人章程入口
-- **日志归拢**：`data/archive/journal/default/` 的 183 篇（2026-03-11 ~ 2026-09-19）与 `data/context/default/journal/` 的 23 篇（2026-09-20 ~ 2026-10-12）迁至 `data/journal/default/<YYYY-MM>/`；`data/context/fiction/journal/` 的 21 篇（2026-09-05 ~ 2026-10-11）与 `data/archive/fiction/journal/` 的 4 篇（2026-03-16 ~ 2026-03-31）迁至 `data/journal/write/<YYYY-MM>/`，均按月份分二级目录
+- **日志归拢**：各源日志迁至 `data/journal`，按域 × 月份分二级目录：`data/archive/journal/default/` 183 篇（2026-03-11 ~ 2026-09-19）与 `data/context/default/journal/` 23 篇（2026-09-20 ~ 2026-10-12）迁至 `default/<YYYY-MM>/`；`data/context/fiction/journal/` 21 篇（2026-09-05 ~ 2026-10-11）与 `data/archive/fiction/journal/` 4 篇（2026-03-16 ~ 2026-03-31）迁至 `write/<YYYY-MM>/`；`data/context/work/journal/` 10 篇（2026-10-03 ~ 2026-10-12）迁至 `work/<YYYY-MM>/`
 
 ### Removed
 
