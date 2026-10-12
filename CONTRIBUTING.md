@@ -87,7 +87,7 @@ git commit -m "<type>: <description>"
 
 ## 记忆集划分与提炼
 
-`assets/memory` 的记忆按主题域分集（详见 `assets/memory/AGENTS.md`）。集与集之间有**提炼关系**，不是并列：
+`assets/context` 的记忆按主题域分集（详见 `assets/context/AGENTS.md`）。集与集之间有**提炼关系**，不是并列：
 
 - **default（创业与个人主线）只保留 `journal/` 与 `profile/`**——时间线 + 个人特征两层，不放 roadmap / insight / intention。
 - **work（工作主线）从 default 提炼**：工作相关的主体（业务、组织、平台、AI 协作）归 `work/` 的各层。
@@ -103,12 +103,12 @@ git commit -m "<type>: <description>"
 
 ## 创始人第二大脑：功能与边界
 
-创始人第二大脑（`assets/memory`）的定位是**个人感受与源头的提纯层**：日志中唯一不可替代的内容是个人的情绪、边界体验与状态收束，这是蒸馏个人档案的最纯原料。工作想法与公司事务随处可读，混入会稀释信号——日志里的饮食规则即判据：AI 开始读不出重点时，就该提纯。
+创始人第二大脑（`assets/context`）的定位是**个人感受与源头的提纯层**：日志中唯一不可替代的内容是个人的情绪、边界体验与状态收束，这是蒸馏个人档案的最纯原料。工作想法与公司事务随处可读，混入会稀释信号——日志里的饮食规则即判据：AI 开始读不出重点时，就该提纯。
 
 | 主体 | 内容 | 归宿 |
 |------|------|------|
-| 个人 | 感受、边界体验、状态收束、日志管理元规则 | `assets/memory` 的 `default/` 集 |
-| 创作 | 叙事日志与创作档案 | `assets/memory` 的 `fiction/` 集；存量 write 归档在 `quanttide-write` 仓库 `data/archive/` |
+| 个人 | 感受、边界体验、状态收束、日志管理元规则 | `assets/context` 的 `default/` 集 |
+| 创作 | 叙事日志与创作档案 | `assets/context` 的 `fiction/` 集；存量 write 归档在 `quanttide-write` 仓库 `data/archive/` |
 | 滁州公司 | 公司启用、业务市场、品牌策略、资产组织 | `roadriver-tech` 仓库 `data/journal/` |
 | 工作 | 系统治理、工具链、组织结构、职业定义、AI 观点解读 | `quanttide-work` 仓库 `data/context/quanttide-founder/` |
 | 游戏 | 游戏日志与设计档案 | `quanttide-work` 仓库 `data/context/quanttide-founder/game/` |
@@ -118,7 +118,7 @@ git commit -m "<type>: <description>"
 1. **个人孵化**：个人空间只产生源头（感受与问题），保持单人交互的轻量与独立可发版。
 2. **溢出度量**：迁出量即个人向组织的资源溢出量，是可观测的贡献指标。
 3. **提交组织**：成熟想法按主体迁入对应组织仓库，成为可交付资产（收复领土、驱逐他者）。
-4. **规则化分流**：判定与流程固化在 `assets/memory/default/README.md` 与各 Skill 中，由 AI 自主执行，创始人一对一投入递减。
+4. **规则化分流**：判定与流程固化在 `assets/context/default/README.md` 与各 Skill 中，由 AI 自主执行，创始人一对一投入递减。
 
 ## 人机协作原则
 

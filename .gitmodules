@@ -18,9 +18,9 @@
 [submodule "assets/fiction"]
 	path = assets/fiction
 	url = https://github.com/quanttide-founder/quanttide-fiction-of-founder.git
-[submodule "assets/memory"]
-	path = assets/memory
-	url = https://github.com/quanttide-founder/quanttide-memory-of-founder.git
+[submodule "assets/context"]
+	path = assets/context
+	url = https://github.com/quanttide-founder/quanttide-context-of-founder.git
 [submodule "packages/quanttide-founder-toolkit"]
 	path = packages/quanttide-founder-toolkit
 	url = https://github.com/quanttide/quanttide-founder-toolkit.git

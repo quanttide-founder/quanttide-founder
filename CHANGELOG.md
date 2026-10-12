@@ -16,6 +16,10 @@
 
 ## [Unreleased]
 
+### Changed
+
+- **第二大脑子模块更名**：`assets/memory` → `assets/context`（仓库 `quanttide-memory-of-founder` → `quanttide-context-of-founder`，旧链接自动重定向）；`.gitmodules`、AGENTS.md、README.md、CONTRIBUTING.md 与 journal-to-archive Skill 索引同步
+
 ### Removed
 
 - **examples/quanttide-domain-classifier**：内容迁入 `quanttide-algorithm-lab` 的 `examples/corpus-linking`，子模块登记与远端仓库一并移除
