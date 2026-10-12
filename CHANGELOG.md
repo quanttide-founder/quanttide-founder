@@ -19,6 +19,7 @@
 ### Changed
 
 - **新增手册仓库**：`docs/handbook`（仓库 `quanttide-handbook-of-founder`），创始人操作规范入口；README 目录树与子模块表同步
+- **新增历史仓库**：`data/history`（仓库 `quanttide-history-of-founder`），创始人历史入口；README 目录树与子模块表同步
 
 ## [1.2.0] - 2026-10-13
 
