@@ -6,7 +6,7 @@
 	url = https://github.com/quanttide/qtgame-war.git
 [submodule "assets/archive"]
 	path = assets/archive
-	url = https://github.com/quanttide-founder/quanttide-archive-of-founder
+	url = https://github.com/quanttide/quanttide-archive-of-founder
 [submodule "apps/qtfounder"]
 	path = apps/qtfounder
 	url = https://github.com/quanttide/qtfounder
@@ -17,10 +17,10 @@
 	branch = main
 [submodule "assets/fiction"]
 	path = assets/fiction
-	url = https://github.com/quanttide-founder/quanttide-fiction-of-founder.git
+	url = https://github.com/quanttide/quanttide-fiction-of-founder.git
 [submodule "assets/context"]
 	path = assets/context
-	url = https://github.com/quanttide-founder/quanttide-context-of-founder.git
+	url = https://github.com/quanttide/quanttide-context-of-founder.git
 [submodule "packages/quanttide-founder-toolkit"]
 	path = packages/quanttide-founder-toolkit
 	url = https://github.com/quanttide/quanttide-founder-toolkit.git
