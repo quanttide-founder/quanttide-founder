@@ -31,7 +31,7 @@ quanttide-founder/
 | `data/archive` | quanttide-archive-of-founder | v1.2.0 |
 | `data/context` | quanttide-context-of-founder | v1.4.1 |
 | `data/journal` | quanttide-journal-of-founder | v1.0.0 |
-| `docs/bylaw` | quanttide-bylaw-of-founder | main |
+| `docs/bylaw` | quanttide-bylaw-of-founder | v0.1.0 |
 | `examples/quanttide-founder-lab` | quanttide-founder-lab | main |
 | `packages/quanttide-founder-toolkit` | quanttide-founder-toolkit | main |
 
