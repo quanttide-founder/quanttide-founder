@@ -29,7 +29,7 @@ quanttide-founder/
 | `assets/qtgame-war` | qtgame-war | main |
 | `assets/qtgame-weiqi` | qtgame-weiqi | v0.1.2-1-g39d13ae |
 | `data/archive` | quanttide-archive-of-founder | v1.0.0 |
-| `data/context` | quanttide-context-of-founder | v1.0.0 |
+| `data/context` | quanttide-context-of-founder | v1.4.0 |
 | `data/journal` | quanttide-journal-of-founder | v1.0.0 |
 | `docs/bylaw` | quanttide-bylaw-of-founder | main |
 | `examples/quanttide-founder-lab` | quanttide-founder-lab | main |
