@@ -91,7 +91,7 @@ git commit -m "<type>: <description>"
 
 - **default（创业与个人主线）只保留 `journal/` 与 `profile/`**——时间线 + 个人特征两层，不放 roadmap / insight / intention。
 - **work（工作主线）从 default 提炼**：工作相关的主体（业务、组织、平台、AI 协作）归 `work/` 的各层。
-- **fiction（写作主线）同理**：保留 `journal/` 与 `profile/`（创作动机 / 创作方法 / 创作困境），另有 `history/`、`library/` 放作品与素材。
+- **write（写作主线）同理**：保留 `journal/` 与 `profile/`（创作动机 / 创作方法 / 创作困境），另有 `history/`、`library/` 放作品与素材。
 - **提炼不丢内容**：从 default 收进 work 的条目按主题落位；重复的合并，独有的保留。
 
 ## 发布规范
