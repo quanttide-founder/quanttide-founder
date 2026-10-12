@@ -15,7 +15,7 @@ description: 把 data/archive（quanttide-archive-of-founder）中属于某领�
 | `journal/write/fiction/**` | 本仓库 `fiction/journal/**` | fiction 主题日志回迁（例外） |
 | `<资产>/write/**` | `quanttide-write/data/archive/<资产>/**` | 去除 write 层落位 |
 
-目标根：`/home/iguo/repos/quanttide/domains/<领域>/data/archive/`。fiction 域资源（如 `context/fiction/`）不随 write 迁移，归属由用户逐次确认。
+目标根：`/home/iguo/repos/quanttide/domains/<领域>/data/archive/`。fiction 域资源（如 `context/write/`）不随 write 迁移，归属由用户逐次确认。
 
 ## 迁移前检查
 

@@ -108,7 +108,7 @@ git commit -m "<type>: <description>"
 | 主体 | 内容 | 归宿 |
 |------|------|------|
 | 个人 | 感受、边界体验、状态收束、日志管理元规则 | `data/context` 的 `default/` 集 |
-| 创作 | 叙事日志与创作档案 | `data/context` 的 `fiction/` 集；存量 write 归档在 `quanttide-write` 仓库 `data/archive/` |
+| 创作 | 叙事日志与创作档案 | `data/context` 的 `write/` 集；存量 write 归档在 `quanttide-write` 仓库 `data/archive/` |
 | 滁州公司 | 公司启用、业务市场、品牌策略、资产组织 | `roadriver-tech` 仓库 `data/journal/` |
 | 工作 | 系统治理、工具链、组织结构、职业定义、AI 观点解读 | `quanttide-work` 仓库 `data/context/quanttide-founder/` |
 | 游戏 | 游戏日志与设计档案 | `quanttide-work` 仓库 `data/context/quanttide-founder/game/` |
