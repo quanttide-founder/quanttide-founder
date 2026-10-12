@@ -22,6 +22,7 @@
 - **组织迁移**：`quanttide-founder` 组织下的全部仓库（`quanttide-founder`、`quanttide-context-of-founder`、`quanttide-fiction-of-founder`、`quanttide-archive-of-founder`）迁至 `quanttide` 组织（旧链接自动重定向）；`.gitmodules` 与各子模块内的组织 URL、路径引用同步
 - **目录结构重排**：`assets/context`、`assets/archive` 迁至 `data/`，并新建 `data/journal`（仓库 `quanttide-journal-of-founder`，创始人日志入口）；`apps/qtgame-tycoon`、`apps/qtgame-war`、`apps/qtgame-weiqi` 迁至 `assets/`；AGENTS.md、README.md、CONTRIBUTING.md 与 journal-to-archive / archive-to-domain Skill 路径同步
 - **新增章程仓库**：`docs/bylaw`（仓库 `quanttide-bylaw-of-founder`），创始人章程入口
+- **日志归拢**：`data/archive/journal/default/` 的 183 篇日志（2026-03-11 ~ 2026-09-19）迁至 `data/journal/default/<YYYY-MM>/`，按月份分二级目录
 
 ### Removed
 
