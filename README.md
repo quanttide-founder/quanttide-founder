@@ -6,12 +6,12 @@
 
 ```
 quanttide-founder/
-├── apps/            # 应用子模块
-├── assets/          # 资产子模块（archive / context / fiction）
+├── apps/            # 应用子模块（qtfounder）
+├── assets/          # 创作资产子模块（fiction / qtgame-tycoon / qtgame-war / qtgame-weiqi）
+├── data/            # 数据子模块（archive / context / journal）
 ├── examples/        # 示例子模块
 ├── packages/        # 包子模块
 ├── .agents/skills/  # Agent Skill
-├── .quanttide/      # 元信息
 ├── AGENTS.md        # Agent 工作指南
 ├── CHANGELOG.md     # 变更日志
 ├── CONTRIBUTING.md  # 贡献指南
@@ -23,12 +23,13 @@ quanttide-founder/
 | 路径 | 仓库 | 版本 |
 |------|------|------|
 | `apps/qtfounder` | qtfounder | site/v0.0.1-4-g51cb1a1 |
-| `apps/qtgame-tycoon` | qtgame-tycoon | v0.0.1-4-gff686fb |
-| `apps/qtgame-war` | qtgame-war | main |
-| `apps/qtgame-weiqi` | qtgame-weiqi | v0.1.2-1-g39d13ae |
-| `assets/archive` | quanttide-archive-of-founder | v1.0.0 |
-| `assets/context` | quanttide-context-of-founder | v1.0.0 |
 | `assets/fiction` | quanttide-fiction-of-founder | v1.0.0 |
+| `assets/qtgame-tycoon` | qtgame-tycoon | v0.0.1-4-gff686fb |
+| `assets/qtgame-war` | qtgame-war | main |
+| `assets/qtgame-weiqi` | qtgame-weiqi | v0.1.2-1-g39d13ae |
+| `data/archive` | quanttide-archive-of-founder | v1.0.0 |
+| `data/context` | quanttide-context-of-founder | v1.0.0 |
+| `data/journal` | quanttide-journal-of-founder | main |
 | `examples/quanttide-founder-lab` | quanttide-founder-lab | main |
 | `packages/quanttide-founder-toolkit` | quanttide-founder-toolkit | main |
 

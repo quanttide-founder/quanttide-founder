@@ -20,6 +20,7 @@
 
 - **第二大脑子模块更名**：`assets/memory` → `assets/context`（仓库 `quanttide-memory-of-founder` → `quanttide-context-of-founder`，旧链接自动重定向）；`.gitmodules`、AGENTS.md、README.md、CONTRIBUTING.md 与 journal-to-archive Skill 索引同步
 - **组织迁移**：`quanttide-founder` 组织下的全部仓库（`quanttide-founder`、`quanttide-context-of-founder`、`quanttide-fiction-of-founder`、`quanttide-archive-of-founder`）迁至 `quanttide` 组织（旧链接自动重定向）；`.gitmodules` 与各子模块内的组织 URL、路径引用同步
+- **目录结构重排**：`assets/context`、`assets/archive` 迁至 `data/`，并新建 `data/journal`（仓库 `quanttide-journal-of-founder`，创始人日志入口）；`apps/qtgame-tycoon`、`apps/qtgame-war`、`apps/qtgame-weiqi` 迁至 `assets/`；AGENTS.md、README.md、CONTRIBUTING.md 与 journal-to-archive / archive-to-domain Skill 路径同步
 
 ### Removed
 
