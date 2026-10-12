@@ -9,7 +9,7 @@ quanttide-founder/
 ├── apps/            # 应用子模块（qtfounder）
 ├── assets/          # 创作资产子模块（fiction / qtgame-tycoon / qtgame-war / qtgame-weiqi）
 ├── data/            # 数据子模块（archive / context / journal）
-├── docs/            # 文档子模块（bylaw）
+├── docs/            # 文档子模块（bylaw / handbook）
 ├── examples/        # 示例子模块
 ├── packages/        # 包子模块
 ├── .agents/skills/  # Agent Skill
@@ -32,6 +32,7 @@ quanttide-founder/
 | `data/context` | quanttide-context-of-founder | v1.4.1 |
 | `data/journal` | quanttide-journal-of-founder | v1.0.0 |
 | `docs/bylaw` | quanttide-bylaw-of-founder | v0.1.0 |
+| `docs/handbook` | quanttide-handbook-of-founder | main |
 | `examples/quanttide-founder-lab` | quanttide-founder-lab | main |
 | `packages/quanttide-founder-toolkit` | quanttide-founder-toolkit | main |
 

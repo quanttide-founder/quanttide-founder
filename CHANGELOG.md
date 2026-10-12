@@ -14,6 +14,12 @@
 
 **工作流程**：创建 Release 之前必须先更新此文件。
 
+## [Unreleased]
+
+### Changed
+
+- **新增手册仓库**：`docs/handbook`（仓库 `quanttide-handbook-of-founder`），创始人操作规范入口；README 目录树与子模块表同步
+
 ## [1.2.0] - 2026-10-13
 
 ### Changed
