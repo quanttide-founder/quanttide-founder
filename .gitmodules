@@ -1,6 +1,3 @@
-[submodule "assets/qtgame-tycoon"]
-	path = assets/qtgame-tycoon
-	url = https://github.com/quanttide/qtgame-tycoon
 [submodule "assets/qtgame-war"]
 	path = assets/qtgame-war
 	url = https://github.com/quanttide/qtgame-war.git
@@ -10,10 +7,6 @@
 [submodule "apps/qtfounder"]
 	path = apps/qtfounder
 	url = https://github.com/quanttide/qtfounder
-	branch = main
-[submodule "assets/qtgame-weiqi"]
-	path = assets/qtgame-weiqi
-	url = https://github.com/quanttide/qtgame-weiqi.git
 	branch = main
 [submodule "assets/fiction"]
 	path = assets/fiction

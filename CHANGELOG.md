@@ -16,6 +16,10 @@
 
 ## [Unreleased]
 
+### Changed
+
+- **游戏子模块移出**：`assets/qtgame-tycoon`、`assets/qtgame-weiqi` 移交 `quanttide-academy` 的 `apps/`；README 目录树与子模块表同步
+
 ## [1.2.1] - 2026-10-13
 
 ### Changed

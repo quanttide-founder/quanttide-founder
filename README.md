@@ -7,7 +7,7 @@
 ```
 quanttide-founder/
 ├── apps/            # 应用子模块（qtfounder）
-├── assets/          # 创作资产子模块（fiction / qtgame-tycoon / qtgame-war / qtgame-weiqi）
+├── assets/          # 创作资产子模块（fiction / qtgame-war）
 ├── data/            # 数据子模块（archive / context / history / journal）
 ├── docs/            # 文档子模块（bylaw / handbook）
 ├── examples/        # 示例子模块
@@ -25,9 +25,7 @@ quanttide-founder/
 |------|------|------|
 | `apps/qtfounder` | qtfounder | site/v0.0.1-4-g51cb1a1 |
 | `assets/fiction` | quanttide-fiction-of-founder | v1.0.0 |
-| `assets/qtgame-tycoon` | qtgame-tycoon | v0.0.1-4-gff686fb |
 | `assets/qtgame-war` | qtgame-war | main |
-| `assets/qtgame-weiqi` | qtgame-weiqi | v0.1.2-1-g39d13ae |
 | `data/archive` | quanttide-archive-of-founder | v1.2.0 |
 | `data/context` | quanttide-context-of-founder | v1.4.1 |
 | `data/history` | quanttide-history-of-founder | main |
