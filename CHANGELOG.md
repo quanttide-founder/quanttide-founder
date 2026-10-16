@@ -16,6 +16,8 @@
 
 ## [Unreleased]
 
+## [1.2.3] - 2026-10-13
+
 ### Changed
 
 - **新增案例集仓库**：`docs/gallery`（仓库 `quanttide-gallery-of-founder`），创始人精选案例（判例库）入口；README 目录树与子模块表同步
