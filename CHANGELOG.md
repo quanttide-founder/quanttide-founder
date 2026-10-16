@@ -18,7 +18,7 @@
 
 ### Changed
 
-- **新增案例**：gallery（`quanttide-gallery-of-founder`）收录首篇案例「命名对齐」（工作域 `work/`），参照 quanttide-feishu 案例集体裁
+- **新增案例**：gallery（`quanttide-gallery-of-founder`）收录首篇案例「对齐文件系统命名」（工作域 `work/`），按「需求 / 意图 / 规格 / 实现」管道体裁
 
 ## [1.2.3] - 2026-10-13
 
