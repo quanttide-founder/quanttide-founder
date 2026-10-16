@@ -16,6 +16,10 @@
 
 ## [Unreleased]
 
+### Changed
+
+- **新增案例**：gallery（`quanttide-gallery-of-founder`）收录首篇案例「从概念到命名：职位与职务的正名」，记录概念整理如何落成文件系统的命名与分类
+
 ## [1.2.3] - 2026-10-13
 
 ### Changed
