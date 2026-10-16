@@ -32,3 +32,6 @@
 [submodule "data/history"]
 	path = data/history
 	url = https://github.com/quanttide/quanttide-history-of-founder.git
+[submodule "docs/gallery"]
+	path = docs/gallery
+	url = https://github.com/quanttide/quanttide-gallery-of-founder
