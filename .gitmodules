@@ -35,3 +35,6 @@
 [submodule "docs/gallery"]
 	path = docs/gallery
 	url = https://github.com/quanttide/quanttide-gallery-of-founder
+[submodule "assets/blog"]
+	path = assets/blog
+	url = https://github.com/quanttide/quanttide-blog-of-founder

@@ -18,6 +18,7 @@
 
 ### Changed
 
+- **新增博客仓库**：`assets/blog`（仓库 `quanttide-blog-of-founder`），创始人短文与随笔，按创作流程分 `1_idea` / `2_draft` / `3_final` 三段；README 目录树与子模块表同步
 - **新增案例**：gallery（`quanttide-gallery-of-founder`）收录首篇案例「对齐文件系统命名」（工作域 `work/`），按「需求 / 意图 / 规格 / 实现」管道体裁
 
 ## [1.2.3] - 2026-10-13
