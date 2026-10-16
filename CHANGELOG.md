@@ -18,7 +18,7 @@
 
 ### Changed
 
-- **新增案例**：gallery（`quanttide-gallery-of-founder`）收录首篇案例「维护文件系统来表达概念」，以职位与职务的正名为例
+- **新增案例**：gallery（`quanttide-gallery-of-founder`）收录首篇案例「命名对齐」（工作域 `work/`），参照 quanttide-feishu 案例集体裁
 
 ## [1.2.3] - 2026-10-13
 
