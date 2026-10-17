@@ -16,6 +16,11 @@
 
 ## [Unreleased]
 
+### Changed
+
+- **新增档案仓库**：`data/profile`（仓库 `quanttide-profile-of-founder`），按 `default/ work/ write/ media/` 分区收档案；`data/context` 各分区的 `profile/` 整体迁入对应文件夹，README 目录树与子模块表同步
+- **`data/context` 指针**：档案迁出（`3cd9b4a`、`040b2c6`），源仓 README 已标注新家
+
 ## [1.2.4] - 2026-10-16
 
 ### Changed

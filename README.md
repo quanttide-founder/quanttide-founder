@@ -8,7 +8,7 @@
 quanttide-founder/
 ├── apps/            # 应用子模块（qtfounder）
 ├── assets/          # 创作资产子模块（blog / fiction / qtgame-war）
-├── data/            # 数据子模块（archive / context / history / journal）
+├── data/            # 数据子模块（archive / context / history / journal / profile）
 ├── docs/            # 文档子模块（bylaw / gallery / handbook）
 ├── examples/        # 示例子模块
 ├── packages/        # 包子模块
@@ -31,6 +31,7 @@ quanttide-founder/
 | `data/context` | quanttide-context-of-founder | v1.4.1 |
 | `data/history` | quanttide-history-of-founder | main |
 | `data/journal` | quanttide-journal-of-founder | v1.0.0 |
+| `data/profile` | quanttide-profile-of-founder | main |
 | `docs/bylaw` | quanttide-bylaw-of-founder | v0.1.0 |
 | `docs/gallery` | quanttide-gallery-of-founder | main |
 | `docs/handbook` | quanttide-handbook-of-founder | main |

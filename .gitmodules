@@ -38,3 +38,6 @@
 [submodule "assets/blog"]
 	path = assets/blog
 	url = https://github.com/quanttide/quanttide-blog-of-founder
+[submodule "data/profile"]
+	path = data/profile
+	url = https://github.com/quanttide/quanttide-profile-of-founder.git
