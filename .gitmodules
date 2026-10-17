@@ -41,3 +41,30 @@
 [submodule "data/profile"]
 	path = data/profile
 	url = https://github.com/quanttide/quanttide-profile-of-founder.git
+[submodule "data/brochure"]
+	path = data/brochure
+	url = https://github.com/quanttide/quanttide-brochure-of-founder
+[submodule "data/insight"]
+	path = data/insight
+	url = https://github.com/quanttide/quanttide-insight-of-founder
+[submodule "data/intention"]
+	path = data/intention
+	url = https://github.com/quanttide/quanttide-intention-of-founder
+[submodule "data/library"]
+	path = data/library
+	url = https://github.com/quanttide/quanttide-library-of-founder
+[submodule "data/report"]
+	path = data/report
+	url = https://github.com/quanttide/quanttide-report-of-founder
+[submodule "data/roadmap"]
+	path = data/roadmap
+	url = https://github.com/quanttide/quanttide-roadmap-of-founder
+[submodule "docs/essay"]
+	path = docs/essay
+	url = https://github.com/quanttide/quanttide-essay-of-founder
+[submodule "docs/specification"]
+	path = docs/specification
+	url = https://github.com/quanttide/quanttide-specification-of-founder
+[submodule "docs/tutorial"]
+	path = docs/tutorial
+	url = https://github.com/quanttide/quanttide-tutorial-of-founder

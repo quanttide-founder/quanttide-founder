@@ -23,6 +23,7 @@
 
 - **新增档案仓库**：`data/profile`（仓库 `quanttide-profile-of-founder`），按 `default/ work/ write/` 分区收档案；`data/context` 三个分区的 `profile/` 迁入对应文件夹（`media/profile/` 随迁后迁回），README 目录树与子模块表同步
 - **`data/context` 指针**：档案迁出与 `media/profile` 迁回（至 `7bb9d0b`），源仓 README 已标注新家
+- **补全 data / docs 子模块**：按 `quanttide-tech` 惯例新增 `data/brochure`、`data/insight`、`data/intention`、`data/library`、`data/report`、`data/roadmap` 与 `docs/essay`、`docs/specification`、`docs/tutorial`，远端仓库均为 `quanttide-<类别>-of-founder`；README 目录树与子模块表同步
 
 ## [1.2.4] - 2026-10-16
 
