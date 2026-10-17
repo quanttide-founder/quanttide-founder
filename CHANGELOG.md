@@ -18,6 +18,9 @@
 
 ### Changed
 
+- **`data/profile` 新增 `meta/`**：以 `default/` 为来源按个人议题重组，8 组 × 三格式（`md` 条目原文 / `lino` 链接记法 / `ttl` 图谱）＋ `index.*` 概括框架；守恒 40 节点、24 条目、26 条边
+
+
 - **新增档案仓库**：`data/profile`（仓库 `quanttide-profile-of-founder`），按 `default/ work/ write/` 分区收档案；`data/context` 三个分区的 `profile/` 迁入对应文件夹（`media/profile/` 随迁后迁回），README 目录树与子模块表同步
 - **`data/context` 指针**：档案迁出与 `media/profile` 迁回（至 `7bb9d0b`），源仓 README 已标注新家
 
